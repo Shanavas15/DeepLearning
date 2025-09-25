@@ -1,5 +1,10 @@
 from ultralytics import YOLO
 import streamlit as st
+import os
+os.environ["OPENCV_OPENGL"] = "0"
+
+import cv2
+
 import cv2 as cv
 import tempfile
 
